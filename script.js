@@ -16,7 +16,7 @@ const value2 = document.querySelector("#value2");
 const input2 = document.querySelector("#que");
 value2.textContent = input2.value;
 input2.addEventListener("input", (event) => {
-  value.textContent = event.target.value;
+  value2.textContent = event.target.value2;
 });
 
 let state = { 
