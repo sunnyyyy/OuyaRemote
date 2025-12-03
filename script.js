@@ -12,9 +12,9 @@ input.addEventListener("input", (event) => {
   value.textContent = event.target.value;
 });
 
-const value = document.querySelector("#value2");
+const value2 = document.querySelector("#value2");
 const input2 = document.querySelector("#que");
-value.textContent = input2.value;
+value2.textContent = input2.value;
 input2.addEventListener("input", (event) => {
   value.textContent = event.target.value;
 });
