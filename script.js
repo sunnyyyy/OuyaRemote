@@ -12,6 +12,13 @@ input.addEventListener("input", (event) => {
   value.textContent = event.target.value;
 });
 
+const value = document.querySelector("#value2");
+const input2 = document.querySelector("#que");
+value.textContent = input2.value;
+input2.addEventListener("input", (event) => {
+  value.textContent = event.target.value;
+});
+
 let state = { 
   "sliderOne": 0,
   "juliaSays": "hello!",
